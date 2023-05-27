@@ -1,24 +1,99 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  IconButton,
+  PaletteOptions,
+  ThemeProvider,
+  createTheme,
+} from "@mui/material";
+import Header from "./components/header/Header";
+import MainSection from "./components/mainSection/MainSection";
+import SkillsSection from "./components/skillsSection/SkillsSection";
+import data from "./data/content.json";
+import ExperiencesSection from "./components/experiencesSection/ExperiencesSection";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import styles from "./App.module.scss";
+import { useEffect, useState } from "react";
+import Footer from "./components/footer/Footer";
+import HobbiesSection from "./components/hobbiesSection/HobbiesSection";
+
+declare module "@mui/material/styles" {
+  interface Theme {
+    experiences: {
+      work: string;
+      stage: string;
+      diploma: string;
+    };
+  }
+  // allow configuration using `createTheme`
+  interface ThemeOptions {
+    experiences?: {
+      work?: string;
+      stage?: string;
+      diploma?: string;
+    };
+  }
+}
 
 function App() {
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main: "#bb468b",
+        light: "#ffd8e8",
+      },
+      secondary: {
+        main: "#f3aa67",
+        light: "#d6e3ff",
+      },
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      accent: {
+        main: "#8091b1",
+        light: "#d6e3ff",
+      },
+    },
+    experiences: {
+      work: "#bb468b",
+      stage: "#8091b1",
+      diploma: "#47A992",
+    },
+  });
+
+  const [showTopButton, setShowTopButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = (event: any) => {
+      setShowTopButton(event.currentTarget?.scrollY > 0);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ThemeProvider theme={theme}>
+        <Header />
+        <MainSection />
+        <SkillsSection skills={data.skills} />
+        <ExperiencesSection
+          experiences={data.experiences}
+          skills={data.skills}
+        />
+        {showTopButton && (
+          <IconButton
+            title="Aller en haut de la page"
+            aria-label="Aller en haut de la page"
+            color="primary"
+            className={styles.goToTop}
+            onClick={() => {
+              window.scrollTo(0, 0);
+            }}
+          >
+            <ArrowUpwardIcon />
+          </IconButton>
+        )}
+
+        <Footer />
+      </ThemeProvider>
     </div>
   );
 }
