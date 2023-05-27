@@ -55,7 +55,9 @@ function App() {
   const [showTopButton, setShowTopButton] = useState(false);
 
   useEffect(() => {
-    const handleScroll = (event: any) => {
+    const handleScroll = (event: Event) => {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
       setShowTopButton(event.currentTarget?.scrollY > 0);
     };
 
