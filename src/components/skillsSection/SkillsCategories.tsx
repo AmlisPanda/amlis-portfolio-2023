@@ -1,4 +1,4 @@
-import { Chip, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
 import React from "react";
 import { SkillCategory } from "../../types";
 import SkillsList from "./SkillsList";

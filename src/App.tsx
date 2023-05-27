@@ -1,19 +1,13 @@
-import {
-  IconButton,
-  PaletteOptions,
-  ThemeProvider,
-  createTheme,
-} from "@mui/material";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
+import { IconButton, ThemeProvider, createTheme } from "@mui/material";
+import { useEffect, useState } from "react";
+import styles from "./App.module.scss";
+import ExperiencesSection from "./components/experiencesSection/ExperiencesSection";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import MainSection from "./components/mainSection/MainSection";
 import SkillsSection from "./components/skillsSection/SkillsSection";
 import data from "./data/content.json";
-import ExperiencesSection from "./components/experiencesSection/ExperiencesSection";
-import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
-import styles from "./App.module.scss";
-import { useEffect, useState } from "react";
-import Footer from "./components/footer/Footer";
-import HobbiesSection from "./components/hobbiesSection/HobbiesSection";
 
 declare module "@mui/material/styles" {
   interface Theme {

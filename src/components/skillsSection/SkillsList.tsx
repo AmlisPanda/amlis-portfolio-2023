@@ -1,15 +1,13 @@
-import { Chip, Grid, useTheme } from "@mui/material";
+import { Chip, Grid } from "@mui/material";
+import { blue, green, grey, pink } from "@mui/material/colors";
 import React from "react";
 import { SkillCat } from "../../types";
-import { blue, green, grey, pink } from "@mui/material/colors";
 
 interface Props {
   skills: SkillCat[];
 }
 
 const SkillsList: React.FC<Props> = ({ skills }) => {
-  const theme = useTheme();
-
   const getCategoryColor = (skill: SkillCat) => {
     switch (skill.type) {
       case "front-end":
