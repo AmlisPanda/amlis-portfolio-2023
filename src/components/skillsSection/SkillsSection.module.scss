@@ -1,0 +1,14 @@
+.container {
+  background-color: #1c1a1c;
+
+  .card {
+    height: 100%;
+  }
+}
+
+.categoryHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 0.8rem;
+}

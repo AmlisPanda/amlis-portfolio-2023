@@ -1,0 +1,352 @@
+{
+  "introduction": " Avec plus de 10 ans d&apos;expérience dans le développement web, je souhaite mettre à profit mes compétences dans le développement front-end et je suis toujours prête à relever de nouveaux challenges.",
+  "skills": {
+    "front-end": [
+      {
+        "label": "JS",
+        "skills": [
+          { "label": "Javascript", "icon": ["fab", "js"] },
+          { "label": "ReactJS", "icon": ["fab", "react"] },
+          { "label": "Typescript", "icon": ["fab", "js"] },
+          { "label": "Redux", "icon": "star" },
+          { "label": "VueJS", "icon": ["fab", "js"] },
+          { "label": "VueX", "icon": ["fab", "js"] },
+          { "label": "Vuetify", "icon": ["fab", "js"] },
+          { "label": "jQuery", "icon": ["fab", "js"] }
+        ]
+      },
+      {
+        "label": "Styling",
+        "skills": [
+          { "label": "HTML", "icon": ["fab", "html5"] },
+          { "label": "CSS", "icon": ["fab", "css3"] },
+          { "label": "SASS", "icon": ["fab", "css3"] },
+          { "label": "styled-components", "icon": "star" },
+          { "label": "Bootstrap", "icon": ["fab", "css3"] },
+          { "label": "MaterialUI", "icon": ["fab", "css3"] }
+        ]
+      },
+      {
+        "label": "Tests",
+        "skills": [
+          { "label": "Cypress", "icon": "star" },
+          { "label": "Jest", "icon": "star" },
+          { "label": "React Testing Library", "icon": "star" }
+        ]
+      },
+      {
+        "label": "Autres",
+        "skills": [{ "label": "Storybook" }]
+      }
+    ],
+    "back-end": [
+      {
+        "label": "Développement",
+        "skills": [
+          { "label": "C#/.NET", "icon": "faCode" },
+          { "label": "ASP.NET", "icon": "faCode" },
+          { "label": "API REST", "icon": "faCode" },
+          { "label": "PHP", "icon": "faPhp" }
+        ]
+      },
+      {
+        "label": "SQL",
+        "skills": [
+          { "label": "SQL", "icon": "faDatabase" },
+          { "label": "SQL Server", "icon": "faDatabase" },
+          { "label": "Transact-SQL", "icon": "faDatabase" },
+          { "label": "mySQL", "icon": "faDatabase" }
+        ]
+      }
+    ],
+    "tools": [
+      {
+        "label": "Logiciels",
+        "skills": [
+          { "icon": "faGithub", "label": "Github" },
+          { "icon": "faGithub", "label": "Gitlab" },
+          { "icon": "faCodeBranch", "label": "Mercurial" },
+          { "icon": "faCodeBranch", "label": "Tortoise SVN" }
+        ]
+      },
+      {
+        "label": "IDE",
+        "skills": [
+          { "icon": "faLaptopCode", "label": "Visual Studio Code" },
+          { "icon": "faLaptopCode", "label": "Webstorm" }
+        ]
+      },
+      {
+        "label": "UI/UX",
+        "skills": [
+          { "icon": "faFigma", "label": "Figma" },
+          { "icon": "faWindowMaximize", "label": "Basalmiq" },
+          { "label": "Invision" }
+        ]
+      },
+      {
+        "label": "Communication",
+        "skills": [
+          { "label": "Teams" },
+          { "label": "Jira" },
+          { "icon": "faSkype", "label": "Skype entreprise" },
+          { "icon": "faSlackHash", "label": "Slack" }
+        ]
+      },
+      {
+        "label": "Composants/API",
+        "skills": [
+          { "icon": "faChartBar", "label": "Syncfusion" },
+          { "icon": "faTable", "label": "Telerik" },
+          { "icon": "faMapMarkedAlt", "label": "API BingMaps" }
+        ]
+      },
+      {
+        "label": "CMS",
+        "skills": [
+          { "icon": "faDrupal", "label": "Drupal" },
+          { "icon": "faWordpress", "label": "Wordpress" }
+        ]
+      }
+    ],
+    "other": [
+      {
+        "label": "Méthodes agiles",
+        "skills": [
+          { "label": "ScrumMastering" },
+          { "label": "Animation de réunions" },
+          { "label": "Planification de sprint" }
+        ]
+      },
+      {
+        "label": "Tech Lead",
+        "skills": [
+          { "label": "Animation de réunions techniques" },
+          { "label": "Analyse/Conception" },
+          { "label": "Partage de connaissances" },
+          { "label": "Présentation de sujets techniques" }
+        ]
+      },
+      {
+        "label": "Développement",
+        "skills": [
+          {
+            "label": "Revue de code"
+          },
+          {
+            "label": "Amélioration de performances"
+          }
+        ]
+      },
+      {
+        "label": "Langues",
+        "skills": [
+          {
+            "label": "Français (langue maternelle)"
+          },
+          {
+            "label": "Anglais (courant et technique)"
+          },
+          {
+            "label": "Italien (intermédiaire)"
+          }
+        ]
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "workPosition": "Développeuse front-end ReactJS",
+      "place": "Horoquartz",
+      "companyUrl": "https://www.horoquartz.fr/",
+      "city": "Saint-Herblain",
+      "country": "France",
+      "type": "work",
+      "description": [
+        "Développement/maintenance de l'application et du Design System (Storybook)",
+        "Amélioration des performances",
+        "Tech Lead : conception, mise en place de bonnes pratiques, accompagnement, animation des réunions techniques, ...",
+        "Tests e2e et tests unitaires",
+        "ScrumMaster : Animation de réunions agiles ",
+        "Revues de code",
+        "Documentation"
+      ],
+      "date": "Septembre 2020 à aujourd'hui",
+      "duration": "2 ans et 9 mois+",
+      "skills": [
+        "ReactJS",
+        "Typescript",
+        "ES6",
+        "Webpack/Vite",
+        "Redux",
+        "Storybook",
+        "Cypress",
+        "Jest",
+        "React Testing Library",
+        "Gitlab",
+        "ScrumMastering",
+        "Tech Lead"
+      ]
+    },
+    {
+      "workPosition": "Consultante technique VueJS/.NET",
+      "place": "Eudonet Canada Inc.",
+      "image": "eudonet-logo.png",
+      "companyUrl": "https://ca.eudonet.com/",
+      "city": "Montréal",
+      "country": "Canada",
+      "type": "work",
+      "description": [
+        "Analyse technique et fonctionnelle, maquettage",
+        "Développement d'un formulaire de don configurable et réutilisable",
+        "Développement d'un tableau de bord style trello",
+        "Tests e2e",
+        "Revues de code",
+        "Documentation",
+        "Méthode Agile"
+      ],
+      "date": "Février à juin 2020",
+      "duration": "5 mois",
+      "skills": ["VueJS", "VueX", "Vuetify", "C#/.NET", "SQL"]
+    },
+    {
+      "workPosition": "Développeuse fullstack ReactJS/.NET",
+      "place": "Octopus ITSM",
+      "companyUrl": "https://en.octopus-itsm.com/",
+      "city": "Montréal",
+      "country": "Canada",
+      "type": "work",
+      "description": [
+        "Analyse, développement de nouvelles fonctionnalités et maintenance des applications web",
+        "Tests unitaires",
+        "Revues de code",
+        "Documentation",
+        "Méthode Agile"
+      ],
+      "date": "Octobre 2018 à janvier 2020",
+      "duration": "1 an et 3 mois",
+      "skills": [
+        "ReactJS",
+        "Redux",
+        "styled-components",
+        "API REST",
+        "C#/.NET",
+        "SQL"
+      ]
+    },
+    {
+      "workPosition": "Développeuse web ASP.NET",
+      "place": "Eudonet Canada",
+      "image": "eudonet-logo.png",
+      "companyUrl": "https://ca.eudonet.com/en/",
+      "city": "Montréal",
+      "country": "Canada",
+      "type": "work",
+      "description": [
+        "Maintenance corrective et évolutive du logiciel CRM",
+        "Développement de nouvelles fonctionnalités : administration, API REST, widgets, tableaux Kanban, cartes BingMaps...",
+        "Méthode Agile"
+      ],
+      "date": "Novembre 2015 à septembre 2018",
+      "duration": "3 ans",
+      "skills": [
+        "ASP.NET",
+        "API REST",
+        "SQL Server",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "API BingMaps"
+      ]
+    },
+    {
+      "workPosition": "Consultante technique C#",
+      "place": "Eudonet",
+      "image": "eudonet-logo.png",
+      "companyUrl": "https://fr.eudonet.com/",
+      "city": "Courbevoie",
+      "country": "France",
+      "type": "work",
+      "description": [
+        "Développement d applications web spécifiques aux clients : formulaires, exports, génerations de fichiers PDF, Excel ou Word, extranets/intranets, ...",
+        "Maintenance corrective et évolutive des applications existantes",
+        "Création et maintenance de procédures stockées Transact-SQL"
+      ],
+      "date": "Avril 2013 à novembre 2015",
+      "duration": "2 ans",
+      "skills": [
+        "ASP.NET",
+        "Transact-SQL",
+        "HTML",
+        "CSS",
+        "jQuery",
+        "API BingMaps",
+        "Telerik",
+        "Syncfusion"
+      ]
+    },
+    {
+      "workPosition": "Développeuse web PHP",
+      "place": "Direct Interactive",
+      "city": "Paris",
+      "country": "France",
+      "type": "work",
+      "description": [
+        "Intégration HTML/CSS de maquettes Photoshop",
+        "Maintenance corrective et évolutive des sites web existants (PHP)",
+        "Création de nouveaux sites web et modules avec le CMS Drupal"
+      ],
+      "date": "Octobre 2011 - Décembre 2012",
+      "duration": "13 mois",
+      "skills": ["PHP", "Drupal", "jQuery", "HTML", "CSS"]
+    },
+    {
+      "workPosition": "Stage en développement web",
+      "place": "Advisio",
+      "city": "Toulouse",
+      "country": "France",
+      "type": "stage",
+      "description": [
+        "Intégration HTML/CSS de maquettes Photoshop",
+        "Maintenance corrective et évolutive des sites web existants (PHP)",
+        "Développement d une application mobile iOS d un journal local"
+      ],
+      "date": "Avril - Juin 2010",
+      "duration": "3 mois",
+      "skills": ["PHP", "mySQL", "jQuery", "HTML", "CSS"]
+    },
+    {
+      "workPosition": "Licence professionnelle S.I.L.",
+      "place": "I.U.T Paul Sabatier",
+      "city": "Toulouse",
+      "country": "France",
+      "type": "diploma",
+      "description": ["Systèmes Informatiques et Logiciels"],
+      "date": "Juin 2010",
+      "duration": ""
+    },
+    {
+      "workPosition": "Stage en développement web",
+      "place": "Vitavie",
+      "city": "Revel",
+      "country": "France",
+      "type": "stage",
+      "description": [
+        "Développement from-scratch d'un site web en PHP de covoiturage dans la région"
+      ],
+      "date": "Avril - Juin 2008",
+      "duration": "3 mois",
+      "skills": ["PHP", "jQuery", "HTML", "CSS", "mySQL", "Objective-C"]
+    },
+    {
+      "workPosition": "DUT informatique",
+      "place": "I.U.T de Metz",
+      "city": "Metz",
+      "country": "France",
+      "type": "diploma",
+      "description": ["Option Qualité du Logiciel"],
+      "date": "Juin 2008",
+      "duration": ""
+    }
+  ]
+}
