@@ -1,23 +1,17 @@
-import { Divider, Grid, Link, Typography, useTheme } from "@mui/material";
+import HomeWorkIcon from "@mui/icons-material/HomeWork";
+import SchoolIcon from "@mui/icons-material/School";
+import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
+import { Link, Typography, useTheme } from "@mui/material";
 import React from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {
-  Experience,
-  ExperienceType,
-  Skill,
-  SkillCat,
-  SkillsData,
-} from "../../types";
+import { Experience, ExperienceType, SkillCat, SkillsData } from "../../types";
+import CompaniesSection from "../companiesSection/CompaniesSection";
 import SkillsList from "../skillsSection/SkillsList";
 import styles from "./ExperiencesSection.module.scss";
-import WorkHistoryIcon from "@mui/icons-material/WorkHistory";
-import SchoolIcon from "@mui/icons-material/School";
-import HomeWorkIcon from "@mui/icons-material/HomeWork";
-import CompaniesSection from "../companiesSection/CompaniesSection";
 
 interface Props {
   experiences: Experience[];
