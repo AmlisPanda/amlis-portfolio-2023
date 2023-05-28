@@ -27,6 +27,7 @@ const SkillsSection: React.FC<Props> = ({ skills }) => {
       className={styles.container}
       id="skills"
       paddingBottom={4}
+      paddingX={2}
     >
       <Typography variant="h6" color="primary" textAlign="center" paddingY={2}>
         Mes compétences

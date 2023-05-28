@@ -9,24 +9,29 @@ import styles from "./CompaniesSection.module.scss";
 const CompaniesSection = () => {
   return (
     <div className={styles.root}>
-      <Typography variant="subtitle1" component="span" textAlign="center">
+      <Typography
+        variant="subtitle1"
+        component="span"
+        textAlign="center"
+        marginBottom={2}
+      >
         Quelques éditeurs de logiciel pour lesquels j&apos;ai travaillé :
       </Typography>
       <Grid
         container
         spacing={6}
-        xs={12}
+        md={9}
         lg={9}
         justifyContent="center"
         alignItems="center"
       >
-        <Grid item lg={4} justifyContent="center">
+        <Grid item sm={4} justifyContent="center">
           <img src={horoquartz} />
         </Grid>
-        <Grid item lg={4} container justifyContent="center">
+        <Grid item sm={4} container justifyContent="center">
           <img src={eudonet} />
         </Grid>
-        <Grid item lg={4} justifyContent="center">
+        <Grid item sm={4} justifyContent="center">
           <img src={octopus} />
         </Grid>
       </Grid>

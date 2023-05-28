@@ -5,6 +5,6 @@
   padding: 1.6rem 0;
 
   img {
-    max-width: 100%;
+    max-width: min(100%, 200px);
   }
 }
